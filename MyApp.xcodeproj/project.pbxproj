@@ -14,6 +14,14 @@
 		3F509FEB1C0E106800FA4D7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F509FE91C0E106800FA4D7C /* LaunchScreen.storyboard */; };
 		3F509FF61C0E106800FA4D7C /* MyAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F509FF51C0E106800FA4D7C /* MyAppTests.swift */; };
 		3F50A0011C0E106800FA4D7C /* MyAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F50A0001C0E106800FA4D7C /* MyAppUITests.swift */; };
+		3F6150C51C1203490047C628 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6150C41C1203490047C628 /* SecondViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		3F6150C71C1203F90047C628 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6150C61C1203F90047C628 /* ThirdViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		3F6150C91C1205530047C628 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6150C81C1205530047C628 /* FourthViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		3F6150CD1C1207710047C628 /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6150CC1C1207710047C628 /* FifthViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		3F62574D1C15FAD000EF0FB5 /* SixthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F62574C1C15FAD000EF0FB5 /* SixthViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		3F62574F1C15FB0F00EF0FB5 /* SeventhViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F62574E1C15FB0F00EF0FB5 /* SeventhViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		3F6257511C15FB5100EF0FB5 /* EigthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6257501C15FB5000EF0FB5 /* EigthViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		3F6257531C15FB6C00EF0FB5 /* NinthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6257521C15FB6C00EF0FB5 /* NinthViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +55,14 @@
 		3F509FFC1C0E106800FA4D7C /* MyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F50A0001C0E106800FA4D7C /* MyAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppUITests.swift; sourceTree = "<group>"; };
 		3F50A0021C0E106800FA4D7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F6150C41C1203490047C628 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		3F6150C61C1203F90047C628 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThirdViewController.swift; path = Assets.xcassets/ThirdViewController.swift; sourceTree = "<group>"; };
+		3F6150C81C1205530047C628 /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		3F6150CC1C1207710047C628 /* FifthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FifthViewController.swift; path = ../FifthViewController.swift; sourceTree = "<group>"; };
+		3F62574C1C15FAD000EF0FB5 /* SixthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SixthViewController.swift; sourceTree = "<group>"; };
+		3F62574E1C15FB0F00EF0FB5 /* SeventhViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeventhViewController.swift; sourceTree = "<group>"; };
+		3F6257501C15FB5000EF0FB5 /* EigthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EigthViewController.swift; sourceTree = "<group>"; };
+		3F6257521C15FB6C00EF0FB5 /* NinthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NinthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +115,14 @@
 			children = (
 				3F509FE01C0E106800FA4D7C /* AppDelegate.swift */,
 				3F509FE21C0E106800FA4D7C /* ViewController.swift */,
+				3F6150C41C1203490047C628 /* SecondViewController.swift */,
+				3F6150C61C1203F90047C628 /* ThirdViewController.swift */,
+				3F6150C81C1205530047C628 /* FourthViewController.swift */,
+				3F6150CC1C1207710047C628 /* FifthViewController.swift */,
+				3F62574C1C15FAD000EF0FB5 /* SixthViewController.swift */,
+				3F62574E1C15FB0F00EF0FB5 /* SeventhViewController.swift */,
+				3F6257501C15FB5000EF0FB5 /* EigthViewController.swift */,
+				3F6257521C15FB6C00EF0FB5 /* NinthViewController.swift */,
 				3F509FE41C0E106800FA4D7C /* Main.storyboard */,
 				3F509FE71C0E106800FA4D7C /* Assets.xcassets */,
 				3F509FE91C0E106800FA4D7C /* LaunchScreen.storyboard */,
@@ -255,8 +279,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F6150CD1C1207710047C628 /* FifthViewController.swift in Sources */,
+				3F62574D1C15FAD000EF0FB5 /* SixthViewController.swift in Sources */,
+				3F62574F1C15FB0F00EF0FB5 /* SeventhViewController.swift in Sources */,
+				3F6150C51C1203490047C628 /* SecondViewController.swift in Sources */,
 				3F509FE31C0E106800FA4D7C /* ViewController.swift in Sources */,
+				3F6150C71C1203F90047C628 /* ThirdViewController.swift in Sources */,
+				3F6257511C15FB5100EF0FB5 /* EigthViewController.swift in Sources */,
 				3F509FE11C0E106800FA4D7C /* AppDelegate.swift in Sources */,
+				3F6257531C15FB6C00EF0FB5 /* NinthViewController.swift in Sources */,
+				3F6150C91C1205530047C628 /* FourthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,6 +515,7 @@
 				3F50A0071C0E106800FA4D7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F50A0081C0E106800FA4D7C /* Build configuration list for PBXNativeTarget "MyAppTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +524,7 @@
 				3F50A00A1C0E106800FA4D7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F50A00B1C0E106800FA4D7C /* Build configuration list for PBXNativeTarget "MyAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +533,7 @@
 				3F50A00D1C0E106800FA4D7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

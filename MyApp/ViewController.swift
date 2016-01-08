@@ -8,18 +8,23 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
-    override func viewDidLoad() {
+class ViewController: UIViewController
+{
+    @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var easyButton: UIButton!
+    @IBOutlet weak var normalButton: UIButton!
+    @IBOutlet weak var hardButton: UIButton!
+    @IBOutlet weak var insaneButton: UIButton!
+     override func viewDidLoad()
+    {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?)
+    {
+      segue.destinationViewController
     }
-
-
+   
+ 
+    
 }
 
